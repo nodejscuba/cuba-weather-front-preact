@@ -1,6 +1,7 @@
-import { Logo } from './logo'
+import { FunctionComponent } from 'preact';
+import { Logo } from './logo';
 
-export function App() {
+export const App: FunctionComponent = () => {
   return (
     <>
       <Logo />
