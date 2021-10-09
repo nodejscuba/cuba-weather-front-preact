@@ -1,6 +1,5 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { h, render } from "preact";
-import { App } from "./app";
-import "./index.css";
+import { render } from 'preact'
+import { App } from './app'
+import './index.css'
 
-render(<App />, document.getElementById("app")!);
+render(<App />, document.getElementById('app')!)
