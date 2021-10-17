@@ -9,13 +9,15 @@
 		"lint:fix": "eslint --ext '.js,.jsx,.ts,.tsx' src/**/* --quiet --fix"
 	},
 	"dependencies": {
-		"preact": "^10.5.13"
+		"preact": "^10.5.13",
+		"styled-components": "^5.3.1"
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.0.0",
 		"@testing-library/jest-dom": "^5.14.1",
 		"@testing-library/preact": "^2.0.1",
 		"@types/jest": "^27.0.1",
+		"@types/styled-components": "^5.1.15",
 		"@typescript-eslint/eslint-plugin": "^4.33.0",
 		"@typescript-eslint/parser": "^4.33.0",
 		"eslint": "^7.32.0",
