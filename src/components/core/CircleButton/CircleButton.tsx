@@ -1,8 +1,13 @@
+import styled from 'styled-components'
+
+const Button = styled.button`
+	color: #fff;
+`
 const CircleButton = () => {
 	return (
-		<div>
-			<h1>Circle Button</h1>
-		</div>
+		<>
+			<Button />
+		</>
 	)
 }
 export default CircleButton
