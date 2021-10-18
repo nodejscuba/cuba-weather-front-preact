@@ -1,6 +1,7 @@
 // import Button from '../components/core/CircleButton/CircleButton'
 import styled from 'styled-components'
 import SideBar from './SideBar/SideBar'
+import Input from '../components/core/FormInput/FormInput'
 
 const SectionOverall = styled.section`
 	width: 100%;
@@ -19,7 +20,9 @@ const InfoSection = styled.section`
 const HomePage = () => {
 	return (
 		<SectionOverall>
-			<SideBar />
+			<SideBar>
+				<Input />
+			</SideBar>
 			<InfoSection />
 		</SectionOverall>
 	)
