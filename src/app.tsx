@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'preact'
-import HomePage from './pages/home.jsx';
+import HomePage from './pages/home'
 
 export const App: FunctionComponent = () => {
 	return (
